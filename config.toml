@@ -46,7 +46,7 @@ googleAnalytics = "UA-XXXXX-Y"
     scope = [
         "Backend developer [on Rails](http://rubyonrails.org/) and [MeteorJS](https://www.meteor.com/)",
         "Frontend developer [specialist in React](https://facebook.github.io/react/)",
-        "iOS/Android App Developer [leveraging React Native](https://facebook.github.io/react-native/)",
+        "iOS/Android App Developer [leveraging React Native](https://facebook.github.io/react-native/) and [Firebase](https://firebase.google.com/)",
         "Creator and maintainer of [Forbidden City Game](https://itunes.apple.com/us/app/forbidden-city-game/id1146810345)"
       ]
     biography = """Passionate about coding, software development and Startup's world. Working but always learning, I love being up to date with the latest languages/frameworks on the scene."""
@@ -78,7 +78,7 @@ googleAnalytics = "UA-XXXXX-Y"
     #postURL = "https://example.com/mailout/"
 
     enable = true
-    title = "Get me a ring!"
+    title = "Give me a hint"
     namePlaceholder = "Your name"
     emailPlaceholder = "Your Email"
     messagePlaceholder = "Message"
