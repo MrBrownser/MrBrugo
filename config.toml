@@ -1,3 +1,148 @@
-baseURL = "http://example.org/"
+# Site settings
+baseurl = "http://MrBrownser.github.io" #without ending slash
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Adrià Castany Serrano"
+theme = "hugo-identity-theme"
+themesDir = "themes"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-XXXXX-Y"
+
+[params]
+
+  # Images settings
+  # Icons, backgrounds and avatars folders are placed in theme's static/images folder.
+  # You may place your images in corresponding folders and then set only filenames below to
+  # change page's appearance
+
+  # Site icons
+  favicon_ico = "favicon.ico"
+  favicon_ico_sizes = "16x16 32x32"
+  appleicon = "apple.png"
+
+  # Additional options to supplement icons served
+  #favicon_png = "favicon.png"
+  #favicon_png_sizes = "96x96"
+  #favicon_svg = "favicon.svg"
+
+  # Link custom assets relative to /static
+  #custom_js  = [""]
+  #custom_css = ["background.css", "icons.css"]
+
+  # Customization switches
+  # Overwrite FontAwesome: see icons.css
+  #custom_icons = true
+  # Overwrite background: see background.css
+  #custom_background = true
+
+  # Personal data
+  [params.personal]
+    # If name is not set, author is used
+    name = "Adrià Castany Serrano"
+    # Avatars can be written to images/avatars/
+    avatar = "adria.jpg"
+    position = "Lead Creative Software Developer at [DenDen](https://www.linkedin.com/company-beta/7792059/)"
+    livesIn = "[Barcelona, Spain](https://www.google.es/maps/place/Barcelona/)"
+    scope = [
+        "Backend developer [on Rails](http://rubyonrails.org/) and [MeteorJS](https://www.meteor.com/)",
+        "Frontend developer [specialist in React](https://facebook.github.io/react/)",
+        "iOS/Android App Developer [leveraging React Native](https://facebook.github.io/react-native/)",
+        "Creator and maintainer of [Forbidden City Game](https://itunes.apple.com/us/app/forbidden-city-game/id1146810345)"
+      ]
+    biography = """Passionate about coding, software development and Startup's world. Working but always learning, I love being up to date with the latest languages/frameworks on the scene."""
+
+
+
+  # Contact form settings
+
+  [params.contact]
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    email = "castany.adria@gmail.com"
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+
+    #postURL = "https://example.com/mailout/"
+
+    enable = true
+    title = "Get me a ring!"
+    namePlaceholder = "Your name"
+    emailPlaceholder = "Your Email"
+    messagePlaceholder = "Message"
+    buttonText = "Say HI"
+    success = "Thank you for contacting me."
+    error = "Message could not be send. Please contact me at castany.adria@gmail.com"
+
+    # Add optional form fields to identify contact forms.
+    #[[params.contact.fields.hidden]]
+    #  name = "someID"
+    #  value = "example.com"
+
+    #[[params.contact.fields.hidden]]
+    # Special values for name such as "page" and "site" will be autofilled
+    #  name = "page"
+
+  # Social settings
+  # You may change these with your social links or add others
+
+  [[params.social]]
+    title = "Linkedin"
+    icon = "fa-linkedin"
+    link = "https://www.linkedin.com/in/adriacastany"
+
+  [[params.social]]
+      title = "GitHub"
+      icon = "fa-github"
+      link = "https://github.com/MrBrownser"
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "https://twitter.com/browncaser"
+
+  # Footer settings
+  [params.footer]
+    # If copyright is not set, author is used
+    copyright = "MrBrownser"
+
+  # Page license
+  [params.license]
+    link = "https://opensource.org/licenses/MIT"
+    name = "MIT License - Copyright 2017 MrBrownser"
+
+  # Credits
+  [[params.credits]]
+    # Title is used as URL text
+    title = "HTML5UP"
+    # Text will be used to explain the credit
+    text = "Designed by"
+    link = "https://html5up.net"
+
+  [[params.credits]]
+    # Title is used as URL text
+    title = "HUGO"
+    # Text will be used to explain the credit
+    text = "Powered by"
+    link = "http://gohugo.io/"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
