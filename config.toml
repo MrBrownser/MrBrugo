@@ -16,7 +16,7 @@ googleAnalytics = "UA-97623391-1"
   # change page's appearance
 
   # Site icons
-  favicon_ico = "favicon.ico"
+  favicon_ico = "my_favicon.ico"
   favicon_ico_sizes = "16x16 32x32"
   appleicon = "apple.png"
 
