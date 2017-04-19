@@ -6,7 +6,7 @@ theme = "hugo-identity-theme"
 themesDir = "themes"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-XXXXX-Y"
+googleAnalytics = "UA-97623391-1"
 
 [params]
 
