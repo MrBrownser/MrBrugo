@@ -121,7 +121,7 @@ googleAnalytics = "UA-97623391-1"
   # Page license
   [params.license]
     link = "https://opensource.org/licenses/MIT"
-    name = "MIT License - Copyright 2017 MrBrownser"
+    name = "2017 MIT License"
 
   # Credits
   [[params.credits]]
