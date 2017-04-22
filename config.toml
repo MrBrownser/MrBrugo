@@ -28,6 +28,7 @@ googleAnalytics = "UA-97623391-1"
   # Link custom assets relative to /static
   #custom_js  = [""]
   #custom_css = ["background.css", "icons.css"]
+  custom_css = ["assets/css/background.css"]
 
   # Customization switches
   # Overwrite FontAwesome: see icons.css
