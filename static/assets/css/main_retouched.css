@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/* Main */
+/* I want the card to be almost full screen when viewing on mobile */
+#main {
+  min-width: 27em;
+}
