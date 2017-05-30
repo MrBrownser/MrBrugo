@@ -79,7 +79,7 @@ googleAnalytics = "UA-97623391-1"
     #postURL = "https://example.com/mailout/"
 
     enable = true
-    title = "Give me a hint"
+    title = "Start a convo"
     namePlaceholder = "Your name"
     emailPlaceholder = "Your Email"
     messagePlaceholder = "Message"
