@@ -1,9 +1,12 @@
 # Site settings
-baseurl = "https://MrBrownser.github.io" #without ending slash
+baseurl = "https://mrbrownser.github.io" #without ending slash
 languageCode = "en-us"
 title = "Adrià Castany Serrano"
 theme = "hugo-identity-theme"
 themesDir = "themes"
+
+# Disable unnecessary kinds
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-97623391-1"
@@ -86,6 +89,10 @@ googleAnalytics = "UA-97623391-1"
     buttonText = "Say HI"
     success = "Thank you for contacting me."
     error = "Message could not be send. Please contact me at castany.adria@gmail.com"
+
+    # Google invisible captcha
+    [params.contact.captcha]
+      sitekey = "6LcgkyMUAAAAAOk8EVXW_9KiqSa3B26M0NcRaO98"
 
     # Add optional form fields to identify contact forms.
     #[[params.contact.fields.hidden]]
