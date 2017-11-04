@@ -39,6 +39,13 @@ googleAnalytics = "UA-97623391-1"
   # Overwrite background: see background.css
   #custom_background = true
 
+  typeformEnabled = true
+  typeformid = "yHxJjG" # Required
+  typeformuser = "mrbrown" # Optional
+  # typeformwidth = "100%" # Optional
+  # typeformheight = "400px" # Optional
+
+
   # Personal data
   [params.personal]
     # If name is not set, author is used
@@ -145,6 +152,8 @@ googleAnalytics = "UA-97623391-1"
     # Text will be used to explain the credit
     text = "Powered by"
     link = "http://gohugo.io/"
+
+
 
   # Optional piwik tracking
   #[params.analytics.piwik]

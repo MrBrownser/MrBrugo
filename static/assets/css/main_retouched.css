@@ -4,9 +4,13 @@
 /* I want the card to be almost full screen when viewing on mobile */
 #main {
   min-width: 27em;}
-  
+
 @media only screen and (max-width: 768px) {
   #main {
     max-width: 100% !important;
     transition: 0.4s;
-  }}
+  }
+  .typeform-widget .typeform-button {
+    height: 80.5px !important;
+  }
+}
