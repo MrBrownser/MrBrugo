@@ -52,12 +52,12 @@ googleAnalytics = "UA-97623391-1"
     name = "Adrià Castany Serrano"
     # Avatars can be written to images/avatars/
     avatar = "adria.jpg"
-    position = "Lead Creative Software Developer at [Haufe](https://www.haufegroup.com/en/home)"
+    position = "FullStack Developer at [Haufe](https://www.haufegroup.com/en/home)"
     livesIn = "[Barcelona, Spain](https://www.google.es/maps/place/Barcelona/)"
     scope = [
-        "Backend developer used to [Rails](http://rubyonrails.org/) and [MeteorJS](https://www.meteor.com/)",
-        "Frontend developer [specialist in React](https://facebook.github.io/react/)",
         "iOS/Android App Developer leveraging [React Native](https://facebook.github.io/react-native/) and [Firebase](https://firebase.google.com/)",
+        "Frontend developer [specialist in React](https://facebook.github.io/react/)",
+        "Backend developer used to [Rails](http://rubyonrails.org/), [MeteorJS](https://www.meteor.com/) and [Express](http://expressjs.com/)",
         "Cocreator and maintainer of [Forbidden City Game](https://itunes.apple.com/us/app/forbidden-city-game/id1146810345)"
       ]
     biography = """Passionate about coding, software development and Startup's world. Working but always learning, I love being up to date with the latest languages/frameworks on the scene."""
