@@ -7,20 +7,17 @@ then
     exit 1;
 fi
 
-echo "Deleting old publication"
+# Eliminar carpeta public
 rm -rf public
-mkdir public
-git worktree prune
-rm -rf .git/worktrees/public/
-
-echo "Checking out gh-pages branch into public"
-git worktree add -B gh-pages public origin/gh-pages
-
-echo "Removing existing files"
-rm -rf public
-
-echo "Generating site"
+# Hacer build
 hugo --theme hugo-identity-theme
-
-echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)" && git push origin gh-pages && cd ..
+# Entrar en la carpeta
+cd public
+# Iniciar un repo de git
+git init
+# Añadir todo en un commit
+git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+# Setear el remoto de mi repo de GH-Pages
+git remote add origin https://github.com/MrBrownser/MrBrownser.github.io.git
+# Hacer push (con force...)
+git push origin master -f
