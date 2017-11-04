@@ -17,10 +17,10 @@ echo "Checking out gh-pages branch into public"
 git worktree add -B gh-pages public origin/gh-pages
 
 echo "Removing existing files"
-rm -rf public/*
+rm -rf public
 
 echo "Generating site"
 hugo --theme hugo-identity-theme
 
 echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)" && git push origin gh-pages && cd ..
