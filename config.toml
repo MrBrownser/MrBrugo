@@ -52,7 +52,7 @@ googleAnalytics = "UA-97623391-1"
     name = "Adrià Castany Serrano"
     # Avatars can be written to images/avatars/
     avatar = "adria.jpg"
-    position = "Lead Creative Software Developer at [DenDen](https://www.linkedin.com/company-beta/7792059/)"
+    position = "Lead Creative Software Developer at [Haufe](https://www.haufegroup.com/en/home)"
     livesIn = "[Barcelona, Spain](https://www.google.es/maps/place/Barcelona/)"
     scope = [
         "Backend developer used to [Rails](http://rubyonrails.org/) and [MeteorJS](https://www.meteor.com/)",
