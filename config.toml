@@ -32,6 +32,7 @@ googleAnalytics = "UA-97623391-1"
   #custom_js  = [""]
   #custom_css = ["background.css", "icons.css"]
   custom_css = ["assets/css/background.css", "assets/css/main_retouched.css"]
+  custom_js  = ["assets/js/typeform-adaptor.js"]
 
   # Customization switches
   # Overwrite FontAwesome: see icons.css
@@ -43,7 +44,7 @@ googleAnalytics = "UA-97623391-1"
   typeformid = "yHxJjG" # Required
   typeformuser = "mrbrown" # Optional
   # typeformwidth = "100%" # Optional
-  # typeformheight = "400px" # Optional
+  typeformheight = "400px" # Optional
 
 
   # Personal data
